@@ -1,0 +1,25 @@
+PUZZLE INPUT: 
+Represents moves of a game of rock, paper, scissors 
+(represented by 'A', 'B', and 'C' for the opponent, and 'X', 'Y', 'Z' for me).
+The opponents' moves are in column 1, and my moves are in column 2. 
+Each 'round' of the game is a row in the input file.
+
+
+SCORING:
+Each shape has a score according to the guide below: 
+Rock: 1
+Paper: 2
+Scissors: 3
+
+From my POV, a win, loss, or draw is scored like this:
+Win: 6
+Draw: 3 
+Loss: 0
+
+My total score for a round is the score of the shape I chose (rock, paper, scissors), 
+plus the score of the outcome of a round (win, lost, drew)
+
+
+GOAL:
+Find the total score that I would get if I made moves against my opponent, according to the puzzle
+input
