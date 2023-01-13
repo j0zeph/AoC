@@ -1,5 +1,3 @@
-import time
-
 """
 Puzzle input: Represents calories of food carried by elves.
 Each elves' food is separated from another's by a blank line.
