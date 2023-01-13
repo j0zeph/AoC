@@ -5,10 +5,11 @@ Each elves' food is separated from another's by a blank line.
 Goal: Find how many calories are being carried by the Elf with the most
 Calories"""
 
+puzzle_input = 'day1-puzzle-input.txt'
 highest_total = 0
 current_total = 0
 
-with open('puzzle-input.txt', 'r', encoding='utf-8') as f:
+with open(puzzle_input, 'r', encoding='utf-8') as f:
     for calorie in f:
         if not calorie: # end of file
             break
