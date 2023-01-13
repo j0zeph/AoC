@@ -1,10 +1,3 @@
-"""
-Puzzle input: Represents calories of food carried by elves.
-Each elves' food is separated from another's by a blank line.
-
-Goal: Find the total number of calories being carried by the top three elves with the most
-Calories"""
-
 puzzle_input = 'day1-puzzle-input.txt'
 total_calories_per_elf = []
 current_total = 0

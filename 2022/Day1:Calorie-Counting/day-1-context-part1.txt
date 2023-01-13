@@ -1,0 +1,7 @@
+PUZZLE INPUT: 
+Represents calories of food carried by elves.
+Each elves' food is separated from another's by a blank line.
+
+
+GOAL:
+Find how many calories are being carried by the Elf with the most calories.
