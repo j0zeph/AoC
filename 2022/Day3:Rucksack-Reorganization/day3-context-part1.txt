@@ -1,0 +1,32 @@
+PUZZLE INPUT: 
+Represents bags/rucksacks with items in them. I will use the term 'bag' henceforth.
+Each line in the input represents items in one bag. 
+A bag has two compartments, each holding the same number of items.
+
+An item is represented by a single character. Items `a` and `A` are considered
+unique items.
+
+The first half of letters in a line represent items in the first compartment, while
+the second half of letters represent items in the second compartment of the bag.
+
+Every item also has a priority, to help prioritize arrangement.
+Letters a - z have priority 1 - 26
+Letters A - Z have priority 27 - 52
+
+
+EXAMPLE:
+Given a line: cwvbHHbCqVchRDHgDsPTdt
+
+Items in first compartment are: cwvbHHbCqVc
+Items in second compartment are: hRDHgDsPTdt
+The item common to both compartments is: H 
+
+The priority of that common item `H` is 34
+
+Therefore, the total of the priority of the common item in that line is
+34
+
+
+GOAL:
+Find the sum of the priorities of the common items in both compartments of all
+given bags in the input.

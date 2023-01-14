@@ -23,9 +23,10 @@ navigate to the proper year and day.
 This table represents everytime I _submitted_ a wrong answer, for every question.<br>
 You know, for science.
 
-|           **Problem**              | **Failed attempts** |
-|:----------------------------------:|:-------------------:|
-| Day 1: Calorie Counting, Part 1    |          1          |
-| Day 1: Calorie Counting, Part 2    |          3          |
-| Day 2: Rock Paper Scissors, Part 1 |          0          |
-| Day 2: Rock Paper Scissors, Part 2 |          0          |
+|           **Problem**                  | **Failed attempts** |
+|:--------------------------------------:|:-------------------:|
+| Day 1: Calorie Counting, Part 1        |          1          |
+| Day 1: Calorie Counting, Part 2        |          3          |
+| Day 2: Rock Paper Scissors, Part 1     |          0          |
+| Day 2: Rock Paper Scissors, Part 2     |          0          |
+| Day 3: Rucksack Reorganization, Part 1 |          0          |
