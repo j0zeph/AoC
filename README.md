@@ -28,3 +28,4 @@ You know, for science.
 | Day 1: Calorie Counting, Part 1    |          1          |
 | Day 1: Calorie Counting, Part 2    |          3          |
 | Day 2: Rock Paper Scissors, Part 1 |          0          |
+| Day 2: Rock Paper Scissors, Part 2 |          0          |
