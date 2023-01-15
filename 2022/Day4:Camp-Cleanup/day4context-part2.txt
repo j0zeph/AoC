@@ -1,0 +1,29 @@
+PUZZLE INPUT: 
+Represents sections of the camp that pairs of Elves have been assigned to tidy up.
+Each line represents sections that one pair of elves have been assigned.
+These are referred to as 'assignment pairs'
+
+The line:
+2-8,3-7
+represents one Elf getting sections: 2, 3, 4, 5, 6, 7 and 8, while another elf in the pair gets 
+sections: 3, 4, 5, 6, and 7
+
+
+GOAL:
+Find how many 'assignment pairs' have a situation where one range overlaps at all with
+another range.
+
+
+EXAMPLE:
+Given a lines: 
+2-8,3-7
+2-3,4-5
+
+In the first line:
+The first Elf has been assigned sections 2-8, that is, sections 2, 3, 4, 5, 6, 7
+and 8
+The second Elf has been assigned sections 3-7, that is, sections 3, 4, 5, 6, and 7
+These sections are considered to overlap.
+
+In the second line:
+Sections do not overlap
