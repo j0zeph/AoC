@@ -1,0 +1,41 @@
+PUZZLE INPUT: 
+Every set of 3 lines in the input represents items in bags that are 
+carried by one group of elves.
+
+Every elf in that group carries a badge, which represents an item that `all` three
+elves in that group are carrying in their bags.
+That badge is also referred to as the group's 'badge item type'
+
+Items are still represented by a single character. Items `a` and `A` are considered
+unique items.
+
+Every item also has a priority, to help prioritize arrangement.
+Letters a - z have priority 1 - 26
+Letters A - Z have priority 27 - 52
+
+
+
+GOAL:
+
+Find the sum of priorities of all 'badge item types' for all the groups of elves.
+
+
+
+EXAMPLE:
+
+Given three lines: 
+vJrwpWtwJgWrhcsFMMfFFhFp
+jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL
+PmmdzqPrVvPwwTWBwg
+
+The item that is common to all three bags carried by the elves in this group is `r`
+
+Given three other lines: 
+wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn
+ttgJtRGJQctTZtZT
+CrZsJsPPZsGzwwsLwLmpwMDw
+
+The item that is common to all three bags carried by the elves in this group is `Z`
+
+Therefore, the total of the priorities of the common items from both groups is
+18(r) + 52(Z) = 70

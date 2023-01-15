@@ -20,7 +20,7 @@ navigate to the proper year and day.
 
 ### Fails per problem:
 
-This table represents everytime I _submitted_ a wrong answer, for every question.<br>
+This table represents every time I _submitted_ a wrong answer, for every question.<br>
 You know, for science.
 
 |           **Problem**                  | **Failed attempts** |
@@ -30,3 +30,4 @@ You know, for science.
 | Day 2: Rock Paper Scissors, Part 1     |          0          |
 | Day 2: Rock Paper Scissors, Part 2     |          0          |
 | Day 3: Rucksack Reorganization, Part 1 |          0          |
+| Day 3: Rucksack Reorganization, Part 2 |          0          |
