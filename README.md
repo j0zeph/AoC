@@ -30,3 +30,4 @@ You know, for science.
 | Day 2: Rock Paper Scissors, Part 2     |          0          |
 | Day 3: Rucksack Reorganization, Part 1 |          0          |
 | Day 3: Rucksack Reorganization, Part 2 |          0          |
+| Day 4: Camp Cleanup, Part 1            |          1          |
