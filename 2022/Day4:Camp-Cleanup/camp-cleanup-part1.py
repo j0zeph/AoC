@@ -1,6 +1,6 @@
 def main():
     puzzle_input = 'day4-puzzle-input.txt'
-    fully_contained_pairs = 1
+    fully_contained_pairs = 0
 
     with open(puzzle_input, 'r', encoding='utf-8') as f:
         for line in f:
