@@ -1,5 +1,5 @@
-# AoC
-Solutions to [Advent of Code](https://adventofcode.com/) puzzles, solved in python
+# aoc2022
+Solutions to the 2022 [Advent of Code](https://adventofcode.com/) puzzles, solved in python
 
 ---
 <br>
@@ -13,8 +13,7 @@ included for context. The short description(s) will only be paraphrasings.<br>
 The puzzle input will be included in a text file, and the short puzzle description(s)<br>
 will also be their own text files within the folder representing the day.<br>
 
-To see the full description of problems, visit the [Advent of Code](https://adventofcode.com/) site and <br>
-navigate to the proper year and day.
+To see the full description of problems for 2022, visit the [Advent of Code](https://adventofcode.com/2022/) site.
 
 <br>
 
