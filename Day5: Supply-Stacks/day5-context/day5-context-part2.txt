@@ -1,0 +1,58 @@
+PUZZLE INPUT: 
+A) The first few lines are a representation of the initial arrangement of crates
+on stacks.
+
+The lines below show 3 stacks of crates: 
+
+    [D]    
+[N] [C]    
+[Z] [M] [P]
+ 1   2   3 
+
+B) The next few lines of the input represent the moves that need to be made, in
+order to take a crate from one stack to another
+
+This time round, crates will not be moved 1 by 1, but rather all in one go.
+
+
+
+GOAL:
+Find the top crates from all stacks after all the moves in the input are made.
+
+
+
+EXAMPLE: 
+Given the following lines:
+move 1 from 2 to 1
+move 3 from 1 to 3
+move 1 from 2 to 1
+
+The first line says to move 1 crate, from the top, from stack 2 to stack 1.
+The crate arrangement after that move is:
+
+[D]        
+[N] [C]    
+[Z] [M] [P]
+ 1   2   3
+
+The second line says to move 3 crates (in one go, without re-arranging), from stack 1 
+to stack 2.
+The crate arrangement after that move is:
+
+        [Z]
+        [N]
+    [C] [D]
+    [M] [P]
+ 1   2   3
+
+The third line says to move 1 crate , from stack 2 to stack 1.
+The crate arrangement after that move is:
+
+        [Z]
+        [N]
+        [D]
+[C] [M] [P]
+ 1   2   3
+
+The top-most crates for the final arrangement of stacks are therefore:
+CMZ

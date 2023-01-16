@@ -33,3 +33,4 @@ You know, for science.
 | Day 4: Camp Cleanup, Part 1            |          1          |
 | Day 4: Camp Cleanup, Part 2            |          0          |
 | Day 5: Supply Stacks, Part 1           |          0          |
+| Day 5: Supply Stacks, Part 2           |          0          |
