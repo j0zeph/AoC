@@ -1,0 +1,35 @@
+PUZZLE INPUT: 
+A) The first few lines are a representation of the initial arrangement of crates
+on stacks.
+
+The lines below show 3 stacks of crates: 
+
+    [D]    
+[N] [C]    
+[Z] [M] [P]
+ 1   2   3 
+
+B) The next few lines of the input represent the moves that need to be made, in
+order to take a crate from one stack to another
+
+
+
+EXAMPLE: 
+Given the following line:
+move 1 from 2 to 1
+
+The line says to move 1 crate, from the top, from stack 2 to stack 1.
+
+The final crate arrangement after that move is:
+
+[D]        
+[N] [C]    
+[Z] [M] [P]
+ 1   2   3
+
+The top crates from all stacks in the final arrangement are: DCP
+
+
+
+GOAL:
+Find the top crates from all stacks after all the moves in the input are made.
