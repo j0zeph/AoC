@@ -1,4 +1,5 @@
 from collections import deque
+from typing import Deque
 
 puzzle_input = 'day6-puzzle-input.txt'
 PACKET_LENGTH = 4
@@ -22,7 +23,7 @@ def main():
                     continue
 
 
-def chars_are_unique(chars: deque[str]) -> bool:
+def chars_are_unique(chars: Deque[str]) -> bool:
     """Returns True if there are no repeated characters in the inputted deque. 
     Returns False otherwise.
     """
