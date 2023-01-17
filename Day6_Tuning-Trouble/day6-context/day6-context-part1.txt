@@ -1,0 +1,33 @@
+PUZZLE INPUT: 
+Represents a signal (which is a stream of characters) being emiited from the Elves'
+malfunctioning communications device, which needs to be processed.
+
+A sequence of four characters--in which there is no repeated letter--in the signal 
+is called a `packet`
+
+The `start-of-packet marker` is the character in the signal that is immediately after 
+the last character of a packet.
+
+
+GOAL:
+Find how many characters in the signal need to be processed before the first
+`start-of-packet marker` is detected.
+
+
+EXAMPLE: 
+Given the short data-stream below:
+bvwbjplbgvbhsrlpgdmjqwftvncz
+
+The first 4 characters are: 'bvwb', which have a repeated 'b', so this does not count as a packet.
+
+The next 4 characters in the stream are: 'vwbj' (not 'jplb', because the next characters are found
+using a 'sliding window' motion).
+In the characters 'vwbj', there is no repeated letter, so this counts as a packet.
+
+After the last 'j' in the 'vwbj' packet, is the letter 'p'. This 'p' considered
+the `start-of-packet marker`.
+
+Hovewer, before we reached that letter 'p', the letters 'bvwbj' (5 letters) had to be
+processed. 
+
+Therefore, 5 is the output.
