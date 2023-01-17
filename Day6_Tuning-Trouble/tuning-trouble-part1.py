@@ -1,7 +1,7 @@
 from collections import deque
 
 puzzle_input = 'day6-puzzle-input.txt'
-
+PACKET_LENGTH = 4
 
 def main():
     sliding_window = deque()
@@ -12,7 +12,7 @@ def main():
                 break
             else:
                 sliding_window.append(char)
-                if len(sliding_window) == 4:
+                if len(sliding_window) == PACKET_LENGTH:
                     if chars_are_unique(sliding_window):
                         print(f.tell())  # chars processed
                         break
