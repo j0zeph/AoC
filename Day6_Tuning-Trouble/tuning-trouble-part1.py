@@ -22,7 +22,10 @@ def main():
                     continue
 
 
-def chars_are_unique(chars: deque) -> bool:
+def chars_are_unique(chars: deque[str]) -> bool:
+    """Returns True if there are no repeated characters in the inputted deque. 
+    Returns False otherwise.
+    """
     return len(chars) == len(set(chars))
 
 
