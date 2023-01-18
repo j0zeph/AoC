@@ -1,0 +1,28 @@
+PUZZLE INPUT: 
+Represents a signal (which is a stream of characters) being emiited from the Elves'
+malfunctioning communications device, which needs to be processed.
+
+A sequence of fourteen characters--in which there is no repeated letter--in the signal 
+is called a `message`
+
+The `start-of-message marker` is the character in the signal that is immediately after 
+the last character of a message.
+
+
+
+GOAL:
+Find how many characters in the signal need to be processed before the first
+`start-of-message marker` is detected.
+
+
+
+EXAMPLE: 
+Given the short data-streams below:
+mjqjpqmgbljsphdztnvjfqwrcgsmlb
+zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw
+
+For the first stream, the `start-of-message marker` is after character 19.
+Therefore 19 is the output.
+
+For the second stream, the `start-of-message marker` is after character 26.
+Therefore 26 is the output.
