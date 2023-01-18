@@ -35,3 +35,4 @@ You know, for science.
 | Day 5: Supply Stacks, Part 1            |          0          |
 | Day 5: Supply Stacks, Part 2            |          0          |
 | Day 6: Tuning Trouble, Part 1           |          0          |
+| Day 6: Tuning Trouble, Part 2           |          0          |
