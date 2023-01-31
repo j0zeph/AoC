@@ -1,7 +1,6 @@
 from collections import deque
 from typing import Deque
 
-# puzzle_input = 'test-input.txt'
 puzzle_input = 'day6-puzzle-input.txt'
 
 MESSAGE_LENGTH = 14
