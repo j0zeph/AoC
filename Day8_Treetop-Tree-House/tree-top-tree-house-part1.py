@@ -43,7 +43,7 @@ def is_visible_in_row(loc: Location, grid) -> bool:
     return this_tree_height > max(trees_on_left, default=-1) or this_tree_height > max(trees_on_right, default=-1)
 
 
-def is_visible_in_column(loc: Location, grid) -> bool:
+def is_visible_in_column(loc: Location, grid: List[List[int]]) -> bool:
     """Returns True if the tree in the location, `loc` in the `grid` is visible in its own
     column.
     Returns False otherwise.
