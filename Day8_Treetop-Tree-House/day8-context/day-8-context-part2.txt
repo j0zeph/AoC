@@ -1,0 +1,71 @@
+PUZZLE INPUT: 
+Represents a patch of trees arranged in a grid manner, with each number representing the 
+height of the tree at that location.
+
+For any tree in the patch, there are other trees around it.
+Only trees directly to the left and right, and directly at the top and bottom will be considered.
+(We will not look at diagonals)
+
+Of those other trees, not all of them are actually visible.
+
+A tree is visible if:
+
+a) It is shorter than the tree in the current location.
+
+b) It is the same height or taller than the tree in the current location.
+Note: Every tree past this kind of visible tree is not visible, as they are blocked from view)
+
+The scenic score of the tree in the current location is a number that is calculated as:
+(trees visible when looking above the current tree) x (trees visible when looking below the current tree) x
+(trees visible when looking to the left of the current tree) x (trees visible when looking to the right of the current tree)
+
+The number of trees seen before the view is blocked is called the 'viewing distance'.
+
+If I look left and encounter 3 trees (including the tree that will block my view), then the viewing distance in that direction
+is 3.
+
+
+GOAL:
+Find the highest scenic score possible in the patch.
+
+
+EXAMPLE:
+Given the patch:
+
+30373
+25512
+65332
+33549
+35390
+
+If the current tree of interest is the tree with height 5 (the second 5 in the second row looking from left to right),
+Its scenic score is calculated by:
+
+- Looking above it:
+    There is one visible tree of height 3. 
+    
+    The viewing distance is 1.
+
+
+- Looking below it:
+    There are two visible trees below it:
+        - The tree with height 3
+        - The tree after that, with height 5. Trees after this tree are not visible
+        
+        The viewing distance is 2.
+
+
+- Looking to the left of it:
+    There is only one visible tree of height 5. The tree of height 2 is blocked from view, and is therefore invisible.
+    
+    The viewing distance here is 1.
+
+
+- Looking to the right of it:
+    There are two visible trees (heights 1 and 2)
+    
+    The viewing distance is 2.
+
+
+The scenic score is therefore the result of multiplying these viewing distances
+scenic score = 1 x 2 x 1 x 2 = 4
