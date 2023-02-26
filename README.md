@@ -41,3 +41,4 @@ You know, for science.
 | Day 6: Tuning Trouble, Part 1           |          0          |
 | Day 6: Tuning Trouble, Part 2           |          0          |
 | Day 8: Treetop Tree House, Part 1       |          0          |
+| Day 8: Treetop Tree House, Part 2       |          0          |
