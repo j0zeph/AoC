@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 # test input for puzzles
-*test*input*.txt
+*test*.txt
