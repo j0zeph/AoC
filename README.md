@@ -40,5 +40,6 @@ You know, for science.
 | Day 5: Supply Stacks, Part 2            |          0          |
 | Day 6: Tuning Trouble, Part 1           |          0          |
 | Day 6: Tuning Trouble, Part 2           |          0          |
+| Day 7: No Space Left on Device, Part 1  |          1          |
 | Day 8: Treetop Tree House, Part 1       |          0          |
 | Day 8: Treetop Tree House, Part 2       |          0          |
